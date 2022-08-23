@@ -1,0 +1,171 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    max-width: 100%;
+}
+html {
+    font-size: 62.5%;
+}
+body {
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-family: 'Roboto mono', monospace;
+}
+h1 {
+    font-family: 'Chelsea Market', cursive;
+    font-size: 7rem;
+}
+section {
+    padding: 4% 0;
+    width: 90%;
+    margin: 0 auto;
+}
+nav {
+    padding: 2% 0;
+}
+nav a {
+    display: inline-block;
+    padding: 1% 0;
+    width: 10%;
+    text-align: center;
+    border-radius: .625rem;
+    color: white;
+    text-decoration: none;
+}
+.orange {
+    background-color: #FF764E;
+    margin-left: 15%;
+}
+.blue {
+    background-color: #5ED3EB;
+    
+    margin: 0 18%;
+}
+.yellow {
+    background-color: #FFCD69;
+    margin-right: 10%;
+}
+.orange:hover {
+    background-color: teal;
+    color: #FF764E
+}
+.blue:hover {
+    background-color: maroon;
+    color: #5ED3EB;
+}
+.yellow:hover {
+    background-color: violet;
+    color: #FFCD69;
+}
+.left, .right {
+    display: inline-block;
+}
+.left {
+    width: 30%;
+    margin-left: 5%;
+}
+.left img {
+    border-radius: 50%;
+}
+.right {
+    width: 60%;
+    text-align: center;
+}
+h1 {
+    height: 17%;
+    padding: 8%;
+}
+h2 {
+    padding: 5%;
+}
+.YosemitePraise {
+    background-color: #DDB9A3;
+}
+.YPbox {
+    width: 85%;
+    margin: 0 auto;
+    color: white;
+}
+.campfire {
+    width: 100%;
+    margin: 0% auto;
+    text-align: center;
+}
+.campfire p {
+    width: 30%;
+    padding: 4%;
+    margin: 0% auto;
+}
+.rv {
+    width: 100%; 
+    margin: 0% auto;
+    text-align: center;
+}
+.rv p {
+    width: 30%;
+    padding: 4%;
+    margin: 0% auto;
+}
+.bolded {
+    font-weight: bold;
+}
+.bg-image {
+    background-image: url('assets/footer_img.jpg');
+    height: 50vh;
+    width: 100%;
+    background-size: cover;
+    background-position: top center;
+    background-repeat: no-repeat;
+}
+footer {
+    background-color: #F9E7DC;
+}
